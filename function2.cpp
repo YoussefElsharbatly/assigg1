@@ -1,4 +1,6 @@
 #include "function2.h"
+#include "function1.h"
+#include <iostream>
 int knapSack(int W, int w[], int v[], int n) {
     int i, wt;
     int K[n + 1][W + 1];
